@@ -240,28 +240,7 @@ ul {
   opacity: 1;
 }
 
-.table-header{
-  text-align: left;
-  font:normal normal normal 15px/20px Roboto;
-  letter-spacing: 1.5px;
-  color:#ADADAD;
-}
-.table-row{
-  text-align: left;
-  font-family: 'Roboto'!important;
-  letter-spacing: 0px;
-  color: #3E3E3E;
-}
-table{
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-}
-th, td{
-  text-align: left;
-  padding: 10px;
-  border-bottom: #3E3E3E 1px solid;
-}
+
 .paid {
   font: normal normal normal 15px/20px Roboto;
   letter-spacing: 0px;
@@ -394,15 +373,7 @@ table td {
     flex-direction: column;
     align-items: center;
   }
-  /* .productinfo .info-txt {
-    margin-left: 0px;
-    margin-right: 5px;
-   
-  }
-  .productinfo{
-    border: 2px black solid;
-   
-  } */
+  
   .datagraph {
     width: 300px;
     margin-left: 0px;
@@ -426,10 +397,6 @@ table td {
   .piechart img {
     width: 100%;
     margin-left: 45px;
-  }
-
-  .data-table {
-    margin-right: 50px;
   }
   #w {
     margin-left: 65px;
@@ -465,7 +432,6 @@ table td {
 
     border-width: 0px;
   }
-
   .search {
     display: none;
   }
@@ -506,5 +472,5 @@ table td {
       position: absolute;
       background-color: #ffffff;
     }
- 
+
 }
