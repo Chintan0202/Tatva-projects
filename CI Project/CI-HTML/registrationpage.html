@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/registrationpage.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/registrationpage.css" />
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid" id="main-cont" >
+    <div class="container-fluid" id="main-cont">
       <div class="row align-items-center">
-        <div class="col-lg-8">
+        <div class="col-lg-9 "  >
           <div
             id="carouselExampleSlidesOnly"
-            class="carousel slide"
+            class="carousel slide "
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -58,7 +59,7 @@
                 <img
                   src="images/Grow-Trees-On-the-path-to-environment-sustainability-login.png"
                   class="d-block w-100"
-                  alt="..."
+                  alt="..." id="img-1"
                 />
                  <div class="carousel-caption d-none d-md-block">
         <h3 class="text-start">Second slide </h3>
@@ -81,12 +82,20 @@
       </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
           </div>
         </div>
-        <div class="col-lg-4">
-            <form>
-                 <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label "
+        <div class="col-lg-3">
+            <form class="main-form">
+                 <div class="mb-1">
+            <label for="exampleInputEmail1" class="form-label mt-5"
               >First Name</label
             >
             <input
@@ -98,7 +107,7 @@
               id="fname"
             />
           </div>
-              <div class="mb-3">
+              <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label "
               >Last Name</label
             >
@@ -110,7 +119,7 @@
               aria-describedby="emailHelp"
             />
           </div>
-              <div class="mb-3">
+              <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label "
               >Phone Number</label
             >
@@ -122,19 +131,19 @@
               aria-describedby="emailHelp"
             />
           </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
+         <div class="mb-1">
+            <label for="exampleInputEmail1" class="form-label "
+              >Email</label
             >
             <input
-              type="email"
+              type="Email"
               placeholder="evan.donohue@gmail.com"
               class="form-control "
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label "
               >New Passowrd</label
             >
@@ -146,7 +155,7 @@
               aria-describedby="emailHelp"
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label "
               >Conform Passowrd</label
             >
@@ -158,15 +167,15 @@
               aria-describedby="emailHelp"
             />
           </div>
-          <button type="button" class="btn" id="login-btn">Register</button>
-          <div class="alert text-center mb-0" role="alert">
+          <button type="button" class="btn mt-2 mb-3" id="login-btn">Register</button>
+          <div class="mt-1 mb-1 text-center size" role="alert">
             Lost your password
           </div>
-           <div class="alert text-center pt-0 mb-0" role="alert">
+           <div class="mt-1 mb-1 text-center size" role="alert">
             Already Registered
-            <a href="#" class="alert-link">Login Now</a>
+            <a href="index.html" class="alert-link ">Login Now</a>
           </div>
-        <p class="text-center align-bottom" id="pr">Privacy Policy</p>
+        <p class="text-center align-bottom size" id="pr">Privacy Policy</p>
             </form>
           
 

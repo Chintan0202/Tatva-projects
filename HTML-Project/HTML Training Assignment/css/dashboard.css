@@ -96,6 +96,7 @@ ul {
   padding-left: 0px;
   display: flex; */
   display: none;
+ 
 }
 
 .dash-text {
@@ -337,7 +338,9 @@ table td {
   color: #000000;
   opacity: 1;
 }
-
+#side-bar{
+  height: 600px ;
+}
 
 /* media queries for tablet ------------------------------------------------------------------------------------------------*/
 
@@ -496,7 +499,7 @@ table td {
   }
   .slider {
     padding-left: 0px;
-    height: 600px;
+    
   }
     .z-display {
       z-index: 1;

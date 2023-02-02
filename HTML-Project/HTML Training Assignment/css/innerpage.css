@@ -113,7 +113,9 @@ ul {
 
    
 }
-
+#side-bar{
+    height:500px
+}
 .display-none {
     /* display: none; */
     width: 242px;
