@@ -9,7 +9,7 @@ display: flex;
 .left{
 width: 650px;
     height: 616px;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 72px;
     margin-bottom: 72px;
 }
@@ -21,7 +21,7 @@ width: 650px;
 .right{
     
 width: auto;
-margin-left: 20%;
+margin-left: 10%;
 /* align-items: center; */
     /* margin-left: 150px; */
 }
@@ -130,10 +130,7 @@ margin-left: 20%;
 
 
 @media screen and (max-width:1024px) {
-.right{
-    /* margin-left: 50p x; */
-    /* padding-left: 120px; */
-}
+
 .left{
 width: 90%;
     height: 80%;
