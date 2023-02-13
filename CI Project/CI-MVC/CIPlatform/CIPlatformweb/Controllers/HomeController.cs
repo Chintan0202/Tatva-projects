@@ -13,7 +13,7 @@ namespace CIPlatformweb.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
@@ -22,7 +22,18 @@ namespace CIPlatformweb.Controllers
         {
             return View();
         }
-
+        public IActionResult Registration()
+        {
+            return View();
+        }
+        public IActionResult Forgotpassword()
+        {
+            return View();
+        }
+        public IActionResult Resetpassword()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -29,3 +29,34 @@ C:\Users\dell\Desktop\CIPlatform\CIPlatformweb\obj\Debug\net6.0\refint\CIPlatfor
 C:\Users\dell\Desktop\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.pdb
 C:\Users\dell\Desktop\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.genruntimeconfig.cache
 C:\Users\dell\Desktop\CIPlatform\CIPlatformweb\obj\Debug\net6.0\ref\CIPlatformweb.dll
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\appsettings.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.staticwebassets.runtime.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.exe
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.deps.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.runtimeconfig.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.dll
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\bin\Debug\net6.0\CIPlatformweb.pdb
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.AssemblyInfo.cs
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.RazorAssemblyInfo.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.RazorAssemblyInfo.cs
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets\msbuild.CIPlatformweb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets\msbuild.build.CIPlatformweb.props
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CIPlatformweb.props
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CIPlatformweb.props
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\scopedcss\bundle\CIPlatformweb.styles.css
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\scopedcss\projectbundle\CIPlatformweb.bundle.scp.css
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.dll
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\refint\CIPlatformweb.dll
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.pdb
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\CIPlatformweb.genruntimeconfig.cache
+C:\Users\dell\Desktop\Tatva Projects\CI Project\CI-MVC\CIPlatform\CIPlatformweb\obj\Debug\net6.0\ref\CIPlatformweb.dll
