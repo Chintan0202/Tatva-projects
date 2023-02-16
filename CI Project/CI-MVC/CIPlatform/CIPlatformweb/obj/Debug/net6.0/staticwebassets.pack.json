@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CIPlatformweb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\Landingpage.css",
+      "PackagePath": "staticwebassets\\css\\Landingpage.css"
+    },
+    {
       "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\forgetpass.css",
       "PackagePath": "staticwebassets\\css\\forgetpass.css"
     },

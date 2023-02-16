@@ -1,0 +1,18 @@
+.user-icon{
+    border-radius: 50%;
+    width: 40px;
+        height: 40px;
+}
+
+.search-bar{
+    border: 0px;
+
+}
+.search-icon{
+   width: 18px;
+   height: 18px;
+
+}
+.filter-box{
+    border: 0px!important;
+}

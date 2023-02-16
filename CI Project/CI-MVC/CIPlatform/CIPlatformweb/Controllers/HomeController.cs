@@ -13,6 +13,10 @@ namespace CIPlatformweb.Controllers
             _logger = logger;
         }
 
+        public IActionResult LandingPage()
+        {
+            return View();
+        }
         public IActionResult Login()
         {
             return View();
