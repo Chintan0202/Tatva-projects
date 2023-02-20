@@ -5,21 +5,83 @@
 
 <html>
     <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="stylesheet" href="/css/Landingpage.css" />
+
     </head>
 
 <body>
     <partial name="_navigation" />
-    <div class="container">
-    <div class="row">
+    <div class="buttons justify-content-end me-5">
+        <div class="list me-4" id="list-icon1"><img src="~/images/list.png"/></div>
+        <div class="grid " id="grid-icon1"><img src="~/images/grid.png" /></div>
 
-    <div class="card col " style="width: 25rem;">
+    </div>
+<div id="missions" >
+        
+    <div class="card-cont" id="card-cont">
+
+
+            <div class="card"  id="card-list">
         <div class="mission-img">
-                    <img src="/images/Animal-welfare-&-save-birds-campaign-1.png" class="card-img-top" alt="...">
-
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 w-100" alt="..." />
         </div>
 
-        <div class="card-body">
+        <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-between" >
+                <div> JR Foundation </div>
+
+                        <div class="star-rating">
+                            <input type="radio" id="5-stars" name="rating" value="5" />
+                            <label for="5-stars" class="star">&#9733;</label>
+                            <input type="radio" id="4-stars" name="rating" value="4" />
+                            <label for="4-stars" class="star">&#9733;</label>
+                            <input type="radio" id="3-stars" name="rating" value="3" />
+                            <label for="3-stars" class="star">&#9733;</label>
+                            <input type="radio" id="2-stars" name="rating" value="2" />
+                            <label for="2-stars" class="star">&#9733;</label>
+                            <input type="radio" id="1-star" name="rating" value="1" />
+                            <label for="1-star" class="star">&#9733;</label>
+                        </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div class="ms-3">
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p class="m-0"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seats left</p>
+
+                        </div>
+                        <div class="me-3">
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p class="m-0"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+                    <hr class="m-0" />
+                    <button type="button" class="btn btn-outline-warning rounded-pill apply-btn mt-2 mb-1">Apply <img class="ms-2" src="~/images/right-arrow.png" /></button>
+                   
+                    
+        </div>
+       
+        
+    </div>
+            <div class="card"  id="card-list">
+        <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100" alt="..." />
+        </div>
+
+        <div class="card-body p-1 ms-2">
                     <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="d-flex justify-content-between" >
@@ -32,23 +94,10 @@
                     <img src="/images/star.png" />
             </div>
                     </div>
-                    <div>
-                        <hr style="position: relative; top: 8px;display: inline-block; width:50px !important;margin-top: 5px !important;">
-                        <button class="button"
-                                style="margin-top:25px;
-                            margin-bottom:25px;
-                            position:relative;
-                            border: none;
-                            text-align: center;
-                            text-decoration: none;
-                            display: inline-block;
-                            cursor: pointer;
-                            border-radius: 16px;">
-
-                            From 10/01/2021 to 10/02/2021
-
-                        </button>
-                        <hr style="position: relative; top: 8px;display: inline-block;width:50px !important;margin-top: 5px !important;">
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
                     </div>
 
 
@@ -72,13 +121,102 @@
        
         
     </div>
-            <div class="card col" style="width: 25rem;">
-                <div class="mission-img">
-                    <img src="/images/Animal-welfare-&-save-birds-campaign-1.png" class="card-img-top" alt="...">
+            <div class="card"  id="card-list">
+        <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top" alt="..." />
+        </div>
 
+        <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-between" >
+                <div> JR Foundation </div>
+            <div>
+                    <img class="selected-star " src="/images/selected-star.png" />
+                    <img class="selected-star" src="/images/selected-star.png" />
+                    <img class="selected-star" src="/images/selected-star.png" />
+                    <img src="/images/star.png"/>
+                    <img src="/images/star.png" />
+            </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
+
+                        </div>
+                        <div>
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+                    
+        </div>
+       
+        
+    </div>
+            <div class="card"  id="card-list">
+        <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top" alt="..." />
+        </div>
+
+        <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-flex justify-content-between" >
+                <div> JR Foundation </div>
+            <div>
+                    <img class="selected-star " src="/images/selected-star.png" />
+                    <img class="selected-star" src="/images/selected-star.png" />
+                    <img class="selected-star" src="/images/selected-star.png" />
+                    <img src="/images/star.png"/>
+                    <img src="/images/star.png" />
+            </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
+
+                        </div>
+                        <div>
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+                    
+        </div>
+       
+        
+    </div>
+            <div class="card"  id="card-list">
+                <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 w-100" alt="..." />
                 </div>
 
-                <div class="card-body">
+                <div class="card-body p-1 ms-2">
                     <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
@@ -91,23 +229,10 @@
                             <img src="/images/star.png" />
                         </div>
                     </div>
-                    <div>
-                        <hr style="position: relative; top: 8px;display: inline-block; width:50px !important;margin-top: 5px !important;">
-                        <button class="button"
-                                style="margin-top:25px;
-                            margin-bottom:25px;
-                            position:relative;
-                            border: none;
-                            text-align: center;
-                            text-decoration: none;
-                            display: inline-block;
-                            cursor: pointer;
-                            border-radius: 16px;">
-
-                            From 10/01/2021 to 10/02/2021
-
-                        </button>
-                        <hr style="position: relative; top: 8px;display: inline-block;width:50px !important;margin-top: 5px !important;">
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
                     </div>
 
 
@@ -131,13 +256,12 @@
 
 
             </div>
-            <div class="card col" style="width: 25rem;">
+            <div class="card"  id="card-list">
                 <div class="mission-img">
-                    <img src="/images/Animal-welfare-&-save-birds-campaign-1.png" class="card-img-top" alt="...">
-
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 w-100" alt="..." />
                 </div>
 
-                <div class="card-body">
+                <div class="card-body p-1 ms-2">
                     <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
@@ -150,23 +274,10 @@
                             <img src="/images/star.png" />
                         </div>
                     </div>
-                    <div>
-                        <hr style="position: relative; top: 8px;display: inline-block; width:50px !important;margin-top: 5px !important;">
-                        <button class="button"
-                                style="margin-top:25px;
-                            margin-bottom:25px;
-                            position:relative;
-                            border: none;
-                            text-align: center;
-                            text-decoration: none;
-                            display: inline-block;
-                            cursor: pointer;
-                            border-radius: 16px;">
-
-                            From 10/01/2021 to 10/02/2021
-
-                        </button>
-                        <hr style="position: relative; top: 8px;display: inline-block;width:50px !important;margin-top: 5px !important;">
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
                     </div>
 
 
@@ -190,9 +301,187 @@
 
 
             </div>
+            <div class="card"  id="card-list">
+                <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100" alt="..." />
+                </div>
+
+                <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <div> JR Foundation </div>
+                        <div>
+                            <img class="selected-star " src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img src="/images/star.png" />
+                            <img src="/images/star.png" />
+                        </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
+
+                        </div>
+                        <div>
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="card"  id="card-list">
+                <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top" alt="..." />
+                </div>
+
+                <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <div> JR Foundation </div>
+                        <div>
+                            <img class="selected-star " src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img src="/images/star.png" />
+                            <img src="/images/star.png" />
+                        </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
+
+                        </div>
+                        <div>
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="card"  id="card-list">
+                <div class="mission-img">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top" alt="..." />
+                </div>
+
+                <div class="card-body p-1 ms-2">
+                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <div> JR Foundation </div>
+                        <div>
+                            <img class="selected-star " src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img class="selected-star" src="/images/selected-star.png" />
+                            <img src="/images/star.png" />
+                            <img src="/images/star.png" />
+                        </div>
+                    </div>
+                    <div class="date-hr">
+                        <hr>
+                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
+                        <hr>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="~/images/Seats-left.png" />
+                            <span>10</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
+
+                        </div>
+                        <div>
+                            <img src="~/images/deadline.png" />
+                            <span>10/21/21</span>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+           
+           
+
+
        
     </div>
     </div>
+
+
+
+
+   
+   <script>
+
+       
+
+        var cards=document.getElementsByClassName("card");
+          document.getElementById("list-icon1").onclick = function () {
+            document.getElementById("card-cont").classList.toggle("list1");
+           
+           
+            for(var i=0;i<cards.length;i++){
+                cards[i].classList.toggle("cards");
+            }
+        }
+        document.getElementById("grid-icon1").onclick = function () {
+            document.getElementById("card-cont").classList.remove("list1");
+            for (var i = 0; i < cards.length; i++) {
+                cards[i].classList.remove("cards");
+            }
+        }
+       
+         $(window).resize(function () {
+            /*If browser resized, check width again */
+            if ($(window).width() < 850) {
+                document.getElementById("card-cont").classList.remove("list1");
+                for (var i = 0; i < cards.length; i++) {
+                    cards[i].classList.remove("cards");
+                }
+            }
+
+        });
+        
+   </script>
 </body>
 </html>
+
+<partial name="_NotFound" />
 

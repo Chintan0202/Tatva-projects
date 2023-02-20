@@ -1,8 +1,147 @@
-﻿
-.rating{
-    margin-left:30%;
+﻿body {
+    overflow-x: hidden;
+}
+.card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap:wrap;
+}
+.card{
+    margin:10px;
+    width:30%;
+    height:fit-content;
+}
+
+.rating {
+    margin-left: 30%;
 }
 .status{
-    
     margin-bottom:20px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5%!important;
+    margin-right:5%!important;
+    flex-direction: column;
+
+}
+
+.buttons {
+    display: flex;
+}
+
+    .buttons div {
+       
+        color: #000000;
+        cursor: pointer;
+        
+    }
+
+       
+
+@media screen and (max-width:850px) {
+    .card-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .card{
+       width:32rem;
+   }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .buttons{
+        display:none;
+    }
+}
+@media screen and (max-width:450px){
+    .card-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .card{
+        width:90%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width:100%
+    }
+    
+}
+.list1{
+    display:flex;
+    flex-direction:column;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+.date-hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+    .date-hr p{
+        border-radius: 14px;
+        border: 0px;
+        background-color: #cccccc;
+    }
+   
+    hr {
+        flex: 1;
+        border: none;
+        height: 2px;
+        background: black;
+    }
+.apply-btn{
+    position:relative;
+    left:45%;
+   
+    
+}
+/* component */
+
+.star-rating {
+   
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2em;
+    justify-content: space-around;
+    padding: 0 .2em;
+    text-align: center;
+    width: 5em;
+}
+
+    .star-rating input {
+        display: none;
+    }
+
+    .star-rating label {
+        color: #ccc;
+        cursor: pointer;
+    }
+
+    .star-rating :checked ~ label {
+        color: #fc0;
+    }
+
+    .star-rating label:hover,
+    .star-rating label:hover ~ label {
+        color: #fc0;
+    }
+.mission-chhumantar{
+    display:none;
 }
