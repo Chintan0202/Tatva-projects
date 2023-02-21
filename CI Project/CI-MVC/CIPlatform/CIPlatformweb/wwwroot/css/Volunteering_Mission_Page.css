@@ -1,0 +1,14 @@
+﻿.card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    width: 30%;
+    height: fit-content;
+}

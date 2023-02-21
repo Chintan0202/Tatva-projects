@@ -1,6 +1,7 @@
 ﻿body {
     overflow-x: hidden;
 }
+
 .card-cont {
     display: flex;
     justify-content: center;
@@ -86,7 +87,7 @@
 .cards {
     display: flex;
     flex-direction: row;
-    width: 100%
+    width: 90%
 }
 .date-hr {
     display: flex;
@@ -108,7 +109,7 @@
     }
 .apply-btn{
     position:relative;
-    left:45%;
+    left:35%;
    
     
 }
@@ -144,4 +145,42 @@
     }
 .mission-chhumantar{
     display:none;
+}
+#mission-theme {
+    position: relative;
+    background-color: #ffffff;
+    
+    bottom: 20px;
+    margin:0px 60px 0px 60px;
+}
+#location {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+.mission-img {
+    position: relative;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.list-view-card {
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-info{
+    width:100%;
+}
+.mission-list-cont {
+    margin-left:5%;
+    margin-right:5%;
+
 }
