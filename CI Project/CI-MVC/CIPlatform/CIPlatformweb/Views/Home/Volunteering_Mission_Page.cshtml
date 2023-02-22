@@ -8,15 +8,262 @@
     <head>
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/Landingpage.css" />
+    <link rel="stylesheet" href="/css/Volunteering_Mission_Page.css" />
     </head>
        <body>
-    <h1>Volunteering_Mission_Page</h1>
+    <partial name="_navigation" />
+    <div class="d-flex mt-2 ms-5">
+        <div class="info-img col-6 p-0">
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%; ">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="~/images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="~/images/Animal-welfare-&-save-birds-campaign-1.png" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                
+
+                <!-- Image text 
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div> -->
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="~/images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="~/images/Animal-welfare-&-save-birds-campaign-1.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="~/images/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="~/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="info-txt  ms-3">
+            <p class="m-0" style="font-size:25px;">
+                CSR initiative stands for Coffee and Farmer Equity
+            </p>
+            <p class="m-0">lorem anksd skdvb sdvnkjn sdkksj dv ksjndks sdknksd sdkjfd skjnkj askf skfhks kjsnfkj
+                skjbskjbvsjn  fksnk sdkfsdkj sf 
+                 .</p>
+            <div class="date-hr">
+                <hr>
+                <p class="mt-2 p-1">Plant 10,000 trees</p>
+                <hr>
+            </div>
+            <div class="d-flex">
+                <div class="ms-4 w-50" style="display:flex;flex-direction:row">
+                    <div>
+                        <img src="~/images/Seats-left.png" />
+                    </div>
+                    <div>
+                    <div>10</div>
+                     <span class="m-0">Seats Left</span>
+                    </div>
+                    
+                </div>
+                <div class="ms-4 w-50" style="display:flex;flex-direction:row">
+                    <div>
+                        <img src="~/images/achieved.png" />
+                    </div>
+                    <div>
+                    <div class="progress ms-3" style="width:95%">
+                      <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                     <span class="ms-3">Archived</span>
+                    </div>
+                    
+                </div>
+            </div>  
+            <hr />
+            <div class="fab-button">
+                <button class="btn rounded-pill m-1" style="border:1px solid #000000;"><img src="~/images/heart1.png" />&nbspAdd To Favourite</button>
+                <button class="btn rounded-pill m-1" style="border:1px solid #000000;"><img src="~/images/add1.png"/>&nbspRecommend to a Co-worker</button>
+
+            </div>
+            <div class="date-hr">
+                <hr/>
+                <div class="star-rating">
+                            <input type="radio" id="5-stars" name="rating" value="5" />
+                            <label for="5-stars" class="star">&#9733;</label>
+                            <input type="radio" id="4-stars" name="rating" value="4" />
+                            <label for="4-stars" class="star">&#9733;</label>
+                            <input type="radio" id="3-stars" name="rating" value="3" />
+                            <label for="3-stars" class="star">&#9733;</label>
+                            <input type="radio" id="2-stars" name="rating" value="2" />
+                            <label for="2-stars" class="star">&#9733;</label>
+                            <input type="radio" id="1-star" name="rating" value="1" />
+                            <label for="1-star" class="star">&#9733;</label>
+                        </div>
+                        <hr />
+            </div>
+            <div class="container px-4">
+                <div class="row gx-5">
+                    <div class="col  border bg-light collection">
+                        <img src="~/images/pin1.png" class="mt-2"/>
+                        <p class="mb-0 mt-4">City</p>
+                        <p>London</p>
+                    </div>
+                    <div class="col  border bg-light collection">
+                        <img src="~/images/web.png" class="mt-2" />
+                        <p class="mb-0 mt-4">Theme</p>
+                        <p class="mb-0">Enviroment</p>
+                    </div>
+                    <div class="col  border bg-light collection">
+                        <img src="~/images/calender.png" class="mt-2"/>
+                        <p class="mb-0 mt-4">Date</p>
+                        <p class="mb-0">Ongoing Opportunity</p>
+                    </div>
+                    <div class="col  border bg-light collection">
+                        <img src="~/images/organization.png" class="mt-2" />
+                        <p class="mb-0 mt-4">Organization</p>
+                        <p class="mb-0">CSE Network</p>
+                    </div>
+
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-warning rounded-pill apply-btn mt-2 mb-1">Apply <img class="ms-2" src="~/images/right-arrow.png" /></button>
+
+        </div>
+
+    </div>
+    <div class="ms-5" >
+        <div class="mt-5 col-lg-8">
+           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mission</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Organization</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Comments</button>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <h3>Introduction</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        more recently with desktop publishing like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        more recently with desktop publishing like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+
+
+                     <h3>Challenge</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        more recently with desktop publishing like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                        <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        
+                        more recently with desktop publishing like Aldus PageMaker including versions of
+                        Lorem Ipsum.
+                    </p>
+                    <h3>Documents</h3>
+                    <p>No Documents Uploaded</p>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+                        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="">
+                        <label for="exampleFormControlTextarea1" class="form-label">Enter Your Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mt-3">
+                         <button class="btn btn-outline-warning rounded-pill">Post Comment</button>
+                    </div>
+                    <div class="ms-4 w-50 mt-4" style="display:flex;flex-direction:row; border:1px solid #000000">
+                        <div>
+                            <img  class="rounded-circle" style="width:40px" src="~/images/volunteer2.png"/>
+                        </div>
+                        <div>
+                            <div>Kane Willimsonr</div>
+                            <span class="m-0">Monday Octomeber 23, 2002, 10:03:59</span>
+                            <p>Nice Mission Grete ahakj ahdhj</p>
+                        </div>
+
+                    </div>
+  </div>
+
+</div>
+        </div>
+        <div></div>
+    </div>
+
     <hr />
+
+
     <h2>Releted Missions</h2>
     <div class="card-cont" id="card-cont">
 
-    <div class="card" id="card-list">
+    <div class="card" >
         <div class="mission-img">
                     <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:5% ">
                         <img src="/images/pin.png" />&nbsp;<span>Canada</span> 
@@ -82,12 +329,12 @@
 
 
     </div>
-    <div class="card" id="card-list">
+    <div class="card" >
             <div class="mission-img">
                 <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:10px">
                     <img src="/images/pin.png" />&nbsp;<span>Canada</span>
                 </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
+                <div class="rounded-circle p-2 " id="location" style="position:absolute;right:8px; top:110px">
                     <img src="/images/heart.png" />
                 </div>
                 <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
@@ -148,205 +395,7 @@
 
 
         </div>
-    <div class="card"  id="card-list">
-        <div class="mission-img">
-                    <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:10px">
-                        <img src="/images/pin.png" />&nbsp;<span>Canada</span> 
-                        </div>
-                        <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 " alt="..." />
-
-                    <div id="mission-theme" class="rounded-pill text-center">
-                        <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                    </div>
-        </div>
-
-        <div class="card-body p-1 ms-2">
-                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="d-flex justify-content-between" >
-                <div> JR Foundation </div>
-                        <div class="star-rating">
-                            <input type="radio" id="5-stars" name="rating" value="5" />
-                            <label for="5-stars" class="star">&#9733;</label>
-                            <input type="radio" id="4-stars" name="rating" value="4" />
-                            <label for="4-stars" class="star">&#9733;</label>
-                            <input type="radio" id="3-stars" name="rating" value="3" />
-                            <label for="3-stars" class="star">&#9733;</label>
-                            <input type="radio" id="2-stars" name="rating" value="2" />
-                            <label for="2-stars" class="star">&#9733;</label>
-                            <input type="radio" id="1-star" name="rating" value="1" />
-                            <label for="1-star" class="star">&#9733;</label>
-                        </div>
-                    </div>
-                    <div class="date-hr">
-                        <hr>
-                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
-                        <hr>
-                    </div>
-
-
-                    <div class="d-flex justify-content-between">
-                        <div>
-                            <img src="~/images/Seats-left.png" />
-                            <span>10</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
-
-                        </div>
-                        <div>
-                            <img src="~/images/deadline.png" />
-                            <span>10/21/21</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
-
-                        </div>
-
-                    </div>
-                    <hr class="m-0" />
-                    <button type="button" class="btn btn-outline-warning rounded-pill apply-btn mt-2 mb-1">Apply <img class="ms-2" src="~/images/right-arrow.png" /></button>
-
-
-                </div>
-
-
-    </div>
-    <div class="card"  id="card-list">
-        <div class="mission-img">
-                    <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:10px">
-                        <img src="/images/pin.png" />&nbsp;<span>Canada</span> 
-                        </div>
-                        <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 " alt="..." />
-
-                    <div id="mission-theme" class="rounded-pill text-center">
-                        <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                    </div>
-        </div>
-
-        <div class="card-body p-1 ms-2">
-                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="d-flex justify-content-between" >
-                <div> JR Foundation </div>
-                        <div class="star-rating">
-                            <input type="radio" id="5-stars" name="rating" value="5" />
-                            <label for="5-stars" class="star">&#9733;</label>
-                            <input type="radio" id="4-stars" name="rating" value="4" />
-                            <label for="4-stars" class="star">&#9733;</label>
-                            <input type="radio" id="3-stars" name="rating" value="3" />
-                            <label for="3-stars" class="star">&#9733;</label>
-                            <input type="radio" id="2-stars" name="rating" value="2" />
-                            <label for="2-stars" class="star">&#9733;</label>
-                            <input type="radio" id="1-star" name="rating" value="1" />
-                            <label for="1-star" class="star">&#9733;</label>
-                        </div>
-                    </div>
-                    <div class="date-hr">
-                        <hr>
-                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
-                        <hr>
-                    </div>
-
-
-                    <div class="d-flex justify-content-between">
-                        <div>
-                            <img src="~/images/Seats-left.png" />
-                            <span>10</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
-
-                        </div>
-                        <div>
-                            <img src="~/images/deadline.png" />
-                            <span>10/21/21</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
-
-                        </div>
-
-                    </div>
-                    <hr class="m-0" />
-                    <button type="button" class="btn btn-outline-warning rounded-pill apply-btn mt-2 mb-1">Apply <img class="ms-2" src="~/images/right-arrow.png" /></button>
-
-
-                </div>
-
-
-    </div>
-    <div class="card"  id="card-list">
-        <div class="mission-img">
-                    <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:10px">
-                        <img src="/images/pin.png" />&nbsp;<span>Canada</span> 
-                        </div>
-                        <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class=" card-img-top h-100 " alt="..." />
-
-                    <div id="mission-theme" class="rounded-pill text-center">
-                        <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                    </div>
-        </div>
-
-        <div class="card-body p-1 ms-2">
-                    <h5 class="card-title">Animal-welfare-&-save-birds-campaign</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="d-flex justify-content-between" >
-                <div> JR Foundation </div>
-                        <div class="star-rating">
-                            <input type="radio" id="5-stars" name="rating" value="5" />
-                            <label for="5-stars" class="star">&#9733;</label>
-                            <input type="radio" id="4-stars" name="rating" value="4" />
-                            <label for="4-stars" class="star">&#9733;</label>
-                            <input type="radio" id="3-stars" name="rating" value="3" />
-                            <label for="3-stars" class="star">&#9733;</label>
-                            <input type="radio" id="2-stars" name="rating" value="2" />
-                            <label for="2-stars" class="star">&#9733;</label>
-                            <input type="radio" id="1-star" name="rating" value="1" />
-                            <label for="1-star" class="star">&#9733;</label>
-                        </div>
-                    </div>
-                    <div class="date-hr">
-                        <hr>
-                        <p class="mt-2 p-1">From 10/01/2021 to 10/02/2021</p>
-                        <hr>
-                    </div>
-
-
-                    <div class="d-flex justify-content-between">
-                        <div>
-                            <img src="~/images/Seats-left.png" />
-                            <span>10</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seats left</p>
-
-                        </div>
-                        <div>
-                            <img src="~/images/deadline.png" />
-                            <span>10/21/21</span>
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline</p>
-
-                        </div>
-
-                    </div>
-                    <hr class="m-0" />
-                    <button type="button" class="btn btn-outline-warning rounded-pill apply-btn mt-2 mb-1">Apply <img class="ms-2" src="~/images/right-arrow.png" /></button>
-
-
-                </div>
-
-
-    </div>
-    <div class="card"  id="card-list">
+    <div class="card" >
         <div class="mission-img">
                     <div class="rounded-pill p-1" id="location" style="position:absolute;right:8px; top:10px">
                         <img src="/images/pin.png" />&nbsp;<span>Canada</span> 
@@ -413,454 +462,41 @@
 
     </div>
 
+
     </div>
 
-    <div class="mission-list-cont mission-chhumantar" id="mission-list-cont" >
-        <div class="list-view-card">
-        <div class="mission-img">
-            <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-              <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-            <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
 
-            <div id="mission-theme" class="rounded-pill text-center">
-                <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-            </div>
-        </div>
-        <div class="card-info ms-3">
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
 
-            <div class="d-flex justify-content-between">
-                <div style="margin-top:14px;">
-                    <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                    <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                    <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                </div>
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
 
-                <div class="star-rating">
-                    <input type="radio" id="5-stars" name="rating" value="5" />
-                    <label for="5-stars" class="star">&#9733;</label>
-                    <input type="radio" id="4-stars" name="rating" value="4" />
-                    <label for="4-stars" class="star">&#9733;</label>
-                    <input type="radio" id="3-stars" name="rating" value="3" />
-                    <label for="3-stars" class="star">&#9733;</label>
-                    <input type="radio" id="2-stars" name="rating" value="2" />
-                    <label for="2-stars" class="star">&#9733;</label>
-                    <input type="radio" id="1-star" name="rating" value="1" />
-                    <label for="1-star" class="star">&#9733;</label>
-                </div>
-            </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                    <img  src="~/images/Seats-left.png"/>
-                    <span>397</span>
-                    <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                       <div>
-                        <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                        <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png"/>
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png"/></button>
-                    </div>
-                </div>
-        </div>
-    </div>
-        <div class="list-view-card">
-            <div class="mission-img">
-                <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-                  <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
-
-                <div id="mission-theme" class="rounded-pill text-center">
-                    <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                </div>
-            </div>
-            <div class="card-info ms-3">
-
-                <div class="d-flex justify-content-between">
-                    <div style="margin-top:14px;">
-                        <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                        <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                        <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                    </div>
-
-                    <div class="star-rating">
-                        <input type="radio" id="5-stars" name="rating" value="5" />
-                        <label for="5-stars" class="star">&#9733;</label>
-                        <input type="radio" id="4-stars" name="rating" value="4" />
-                        <label for="4-stars" class="star">&#9733;</label>
-                        <input type="radio" id="3-stars" name="rating" value="3" />
-                        <label for="3-stars" class="star">&#9733;</label>
-                        <input type="radio" id="2-stars" name="rating" value="2" />
-                        <label for="2-stars" class="star">&#9733;</label>
-                        <input type="radio" id="1-star" name="rating" value="1" />
-                        <label for="1-star" class="star">&#9733;</label>
-                    </div>
-                </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                        <img src="~/images/Seats-left.png" />
-                        <span>397</span>
-                        <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                        <div>
-                            <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                            <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png" />
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png" /></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="list-view-card">
-        <div class="mission-img">
-            <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-              <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-            <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
-
-            <div id="mission-theme" class="rounded-pill text-center">
-                <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-            </div>
-        </div>
-        <div class="card-info ms-3">
-
-            <div class="d-flex justify-content-between">
-                <div style="margin-top:14px;">
-                    <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                    <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                    <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                </div>
-
-                <div class="star-rating">
-                    <input type="radio" id="5-stars" name="rating" value="5" />
-                    <label for="5-stars" class="star">&#9733;</label>
-                    <input type="radio" id="4-stars" name="rating" value="4" />
-                    <label for="4-stars" class="star">&#9733;</label>
-                    <input type="radio" id="3-stars" name="rating" value="3" />
-                    <label for="3-stars" class="star">&#9733;</label>
-                    <input type="radio" id="2-stars" name="rating" value="2" />
-                    <label for="2-stars" class="star">&#9733;</label>
-                    <input type="radio" id="1-star" name="rating" value="1" />
-                    <label for="1-star" class="star">&#9733;</label>
-                </div>
-            </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                    <img  src="~/images/Seats-left.png"/>
-                    <span>397</span>
-                    <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                       <div>
-                        <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                        <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png"/>
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png"/></button>
-                    </div>
-                </div>
-        </div>
-    </div>
-        <div class="list-view-card">
-            <div class="mission-img">
-                <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-                  <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                            <img src="/images/heart.png" />
-                            </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
-
-                <div id="mission-theme" class="rounded-pill text-center">
-                    <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                </div>
-            </div>
-            <div class="card-info ms-3">
-
-                <div class="d-flex justify-content-between">
-                    <div style="margin-top:14px;">
-                        <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                        <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                        <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                    </div>
-
-                    <div class="star-rating">
-                        <input type="radio" id="5-stars" name="rating" value="5" />
-                        <label for="5-stars" class="star">&#9733;</label>
-                        <input type="radio" id="4-stars" name="rating" value="4" />
-                        <label for="4-stars" class="star">&#9733;</label>
-                        <input type="radio" id="3-stars" name="rating" value="3" />
-                        <label for="3-stars" class="star">&#9733;</label>
-                        <input type="radio" id="2-stars" name="rating" value="2" />
-                        <label for="2-stars" class="star">&#9733;</label>
-                        <input type="radio" id="1-star" name="rating" value="1" />
-                        <label for="1-star" class="star">&#9733;</label>
-                    </div>
-                </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                        <img src="~/images/Seats-left.png" />
-                        <span>397</span>
-                        <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                        <div>
-                            <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                            <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png" />
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png" /></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="list-view-card">
-            <div class="mission-img">
-                <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                    <img src="/images/heart.png" />
-                </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
-
-                <div id="mission-theme" class="rounded-pill text-center">
-                    <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                </div>
-            </div>
-            <div class="card-info ms-3">
-
-                <div class="d-flex justify-content-between">
-                    <div style="margin-top:14px;">
-                        <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                        <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                        <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                    </div>
-
-                    <div class="star-rating">
-                        <input type="radio" id="5-stars" name="rating" value="5" />
-                        <label for="5-stars" class="star">&#9733;</label>
-                        <input type="radio" id="4-stars" name="rating" value="4" />
-                        <label for="4-stars" class="star">&#9733;</label>
-                        <input type="radio" id="3-stars" name="rating" value="3" />
-                        <label for="3-stars" class="star">&#9733;</label>
-                        <input type="radio" id="2-stars" name="rating" value="2" />
-                        <label for="2-stars" class="star">&#9733;</label>
-                        <input type="radio" id="1-star" name="rating" value="1" />
-                        <label for="1-star" class="star">&#9733;</label>
-                    </div>
-                </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                        <img src="~/images/Seats-left.png" />
-                        <span>397</span>
-                        <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                        <div>
-                            <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                            <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png" />
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png" /></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="list-view-card">
-            <div class="mission-img">
-                <div class="rounded-pill p-1" id="location" style="position:absolute;right:5px; top:10px"><img src="/images/pin.png" />&nbsp;<span>Canada</span> </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:110px">
-                    <img src="/images/heart.png" />
-                </div>
-                <div class="rounded-circle p-2" id="location" style="position:absolute;right:8px; top:160px">
-                    <img src="/images/add1.png" />
-                </div>
-                <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="  " alt="..." />
-
-                <div id="mission-theme" class="rounded-pill text-center">
-                    <p class="mt-1 mb-1 ps-2 pe-2">Enviroment</p>
-                </div>
-            </div>
-            <div class="card-info ms-3">
-
-                <div class="d-flex justify-content-between">
-                    <div style="margin-top:14px;">
-                        <img src="/images/pin1.png" />
-                        <span style="font-size:90%;">Atlanta</span>
-                        <img class="ms-1" src="/images//web.png" />
-                        <span style="font-size:90%;">Enviroment</span>
-                        <img src="/images/organization.png" />
-                        <span style="font-size:90%;">Smith International Caring Foundation</span>
-                    </div>
-
-                    <div class="star-rating">
-                        <input type="radio" id="5-stars" name="rating" value="5" />
-                        <label for="5-stars" class="star">&#9733;</label>
-                        <input type="radio" id="4-stars" name="rating" value="4" />
-                        <label for="4-stars" class="star">&#9733;</label>
-                        <input type="radio" id="3-stars" name="rating" value="3" />
-                        <label for="3-stars" class="star">&#9733;</label>
-                        <input type="radio" id="2-stars" name="rating" value="2" />
-                        <label for="2-stars" class="star">&#9733;</label>
-                        <input type="radio" id="1-star" name="rating" value="1" />
-                        <label for="1-star" class="star">&#9733;</label>
-                    </div>
-                </div>
-                <h4>Grow-Trees-On-the-path-to-environment-sustainability</h4>
-                <p>This Summer we are aiming to plant 1000 plant</p>
-                <div class="d-flex">
-                    <div>
-                        <img src="~/images/Seats-left.png" />
-                        <span>397</span>
-                        <p class="ms-4">Seats Left</p>
-                    </div>
-                    <div class="ms-4 " style="display:flex;flex-direction:row">
-                        <div>
-                            <img src="~/images/achieved.png" />
-                        </div>
-                        <div>
-                            <div class="mt-2 ms-3" style="background-color:#818181; width:150px;height:10px; border-radius:10px"></div>
-                            <span class="ms-3">Archived</span>
-                        </div>
-
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/calender.png" />
-                        <span class="">From 01/09/2019</span>
-                        <p class="ms-4">Until 1/12/2019</p>
-                    </div>
-                    <div class="ms-4 ">
-                        <img src="~/images/Seats-left.png" />
-                        <span>Skills</span>
-                        <p class="ms-4">English Teaching</p>
-                    </div>
-                    <div class="ms-5">
-                        <button class="btn btn-outline-warning rounded-pill">View Details<img class="ms-2" src="~/images/right-arrow.png" /></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
        </body>
 </html>
 

@@ -109,9 +109,7 @@
     }
 .apply-btn{
     position:relative;
-    left:35%;
-   
-    
+    left:35%; 
 }
 /* component */
 
@@ -120,11 +118,12 @@
     display: flex;
     flex-direction: row-reverse;
     font-size: 2em;
-    justify-content: space-around;
+    justify-content:space-between;
     padding: 0 .2em;
     text-align: center;
     width: 5em;
 }
+
 
     .star-rating input {
         display: none;
@@ -143,6 +142,7 @@
     .star-rating label:hover ~ label {
         color: #fc0;
     }
+        
 .mission-chhumantar{
     display:none;
 }
@@ -166,21 +166,30 @@
     position: relative;
 }
 
-
-
+.star-rating-list {
+    margin-left: 30%;
+}
 
 /*--------------------------------------------------------------------------------------*/
-
 .list-view-card {
     display: flex;
     flex-direction: row;
-    
 }
 .card-info{
     width:100%;
 }
 .mission-list-cont {
-    margin-left:5%;
-    margin-right:5%;
+    
 
+}
+.details-btn {
+    margin-left: 13%
+}
+@media screen and (max-width:1025px){
+    .star-rating-list {
+        margin-left: 0%;
+    }
+    .details-btn {
+        margin-left: 0%
+    }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GF3AD2ztYev4pWUlDNfkQ8BdfifeyocuWUEykEj2oxI=",
+  "Hash": "gi4FsSTONv+KBFY/WF+RHUBEEJtmy7K4G1hnUusQA4Q=",
   "Source": "CIPlatformweb",
   "BasePath": "_content/CIPlatformweb",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\Volunteering_Mission_Page.css",
+      "SourceId": "CIPlatformweb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\",
+      "BasePath": "_content/CIPlatformweb",
+      "RelativePath": "css/Volunteering_Mission_Page.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Volunteering_Mission_Page.css"
     },
     {
       "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\favicon.ico",
