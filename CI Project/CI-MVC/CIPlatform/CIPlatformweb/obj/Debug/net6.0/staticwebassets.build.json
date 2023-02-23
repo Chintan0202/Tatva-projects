@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gi4FsSTONv+KBFY/WF+RHUBEEJtmy7K4G1hnUusQA4Q=",
+  "Hash": "mwdqD9Rt00WS0VJpvb6fGL1641DohXQzgCmFYsdanh0=",
   "Source": "CIPlatformweb",
   "BasePath": "_content/CIPlatformweb",
   "Mode": "Default",
@@ -627,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\down.png"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\download.jpeg",
+      "SourceId": "CIPlatformweb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\",
+      "BasePath": "_content/CIPlatformweb",
+      "RelativePath": "images/download.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.jpeg"
     },
     {
       "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\drag-and-drop.png",

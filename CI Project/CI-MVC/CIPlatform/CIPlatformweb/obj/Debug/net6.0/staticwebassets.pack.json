@@ -213,6 +213,10 @@
       "PackagePath": "staticwebassets\\images\\down.png"
     },
     {
+      "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\download.jpeg"
+    },
+    {
       "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\drag-and-drop.png",
       "PackagePath": "staticwebassets\\images\\drag-and-drop.png"
     },
