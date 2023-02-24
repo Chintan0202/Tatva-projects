@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\Navigation.css"
     },
     {
+      "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\StoryPage.css",
+      "PackagePath": "staticwebassets\\css\\StoryPage.css"
+    },
+    {
       "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\Volunteering_Mission_Page.css",
       "PackagePath": "staticwebassets\\css\\Volunteering_Mission_Page.css"
     },
@@ -211,10 +215,6 @@
     {
       "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\down.png",
       "PackagePath": "staticwebassets\\images\\down.png"
-    },
-    {
-      "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\download.jpeg",
-      "PackagePath": "staticwebassets\\images\\download.jpeg"
     },
     {
       "Id": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\drag-and-drop.png",

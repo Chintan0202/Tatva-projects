@@ -1,4 +1,5 @@
-﻿.card-cont {
+﻿
+.card-cont {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,10 +124,24 @@ hr {
         flex-direction: column;
         width: 100%
     }
+    .abc {
+        flex-wrap:wrap;
+       
+        margin:auto;
+    }
+
+    .collection {
+        width: 40%!important;
+    }
+    .fab-button button{
+        margin-top:5px!important;
+    }
+   
 }
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
+
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -172,7 +187,7 @@ hr {
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover,
     .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
+        /*background-color: rgba(0, 0, 0, 0.8);*/
     }
 
 /* Number text (1/3 etc) */
@@ -214,6 +229,7 @@ hr {
         opacity: 1;
     }
 .mySlides img{
+    
     min-height:450px; 
 }
 .fab-button {
@@ -221,8 +237,17 @@ hr {
     
     flex-wrap: wrap;
 }
+    .fab-button button {
+        border: 1px solid #000000;
+        margin: auto
+    }
 .abc{
-    column-gap:5px;
+    width:100%;
+    display:flex;
+   gap:5px;
+}
+.collection{
+    width:25%;
 }
 @media screen and (max-width:990px){
     .info{

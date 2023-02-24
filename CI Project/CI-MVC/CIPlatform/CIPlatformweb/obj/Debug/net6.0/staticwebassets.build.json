@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mwdqD9Rt00WS0VJpvb6fGL1641DohXQzgCmFYsdanh0=",
+  "Hash": "r9nz3m6LffR3yhij3uOPPBRP7LI8KqbdXho4gz5fZCE=",
   "Source": "CIPlatformweb",
   "BasePath": "_content/CIPlatformweb",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\StoryPage.css",
+      "SourceId": "CIPlatformweb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\",
+      "BasePath": "_content/CIPlatformweb",
+      "RelativePath": "css/StoryPage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StoryPage.css"
     },
     {
       "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\css\\Volunteering_Mission_Page.css",
@@ -627,23 +644,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\down.png"
-    },
-    {
-      "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\download.jpeg",
-      "SourceId": "CIPlatformweb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\",
-      "BasePath": "_content/CIPlatformweb",
-      "RelativePath": "images/download.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\download.jpeg"
     },
     {
       "Identity": "C:\\Users\\dell\\Desktop\\Tatva Projects\\CI Project\\CI-MVC\\CIPlatform\\CIPlatformweb\\wwwroot\\images\\drag-and-drop.png",
